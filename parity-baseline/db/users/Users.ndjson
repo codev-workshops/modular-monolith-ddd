@@ -1,0 +1,3 @@
+{"Email":"adamSmith@mail.com","FirstName":"Adam","Id":"#GUID_0001#","IsActive":true,"LastName":"Smith","Login":"adamSmith@mail.com","Name":"Adam Smith"}
+{"Email":"rickmorty@mail.com","FirstName":"Rick","Id":"#GUID_0002#","IsActive":true,"LastName":"Morty","Login":"rickmorty@mail.com","Name":"Rick Morty"}
+{"Email":"testAdmin@mail.com","FirstName":"Jane","Id":"#GUID_0003#","IsActive":true,"LastName":"Doe","Login":"testAdmin@mail.com","Name":"Jane Doe"}

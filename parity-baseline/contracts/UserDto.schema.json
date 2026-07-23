@@ -1,0 +1,1 @@
+{"$schema":"https://json-schema.org/draft/2020-12/schema","additionalProperties":false,"properties":{"email":{"type":["string","null"]},"id":{"format":"uuid","type":"string"},"isActive":{"type":"boolean"},"login":{"type":["string","null"]},"name":{"type":["string","null"]}},"required":["id","isActive"],"title":"UserDto","type":"object"}

@@ -1,0 +1,5 @@
+{"CategoryCode":"New","CountryCode":"PL","Id":"#GUID_0006#","IsActive":true,"MoneyCurrency":"PLN","MoneyValue":"320.00","SubscriptionPeriodCode":"HalfYear"}
+{"CategoryCode":"New","CountryCode":"PL","Id":"#GUID_0007#","IsActive":true,"MoneyCurrency":"PLN","MoneyValue":"60.00","SubscriptionPeriodCode":"Month"}
+{"CategoryCode":"New","CountryCode":"US","Id":"#GUID_0008#","IsActive":true,"MoneyCurrency":"USD","MoneyValue":"15.00","SubscriptionPeriodCode":"Month"}
+{"CategoryCode":"New","CountryCode":"US","Id":"#GUID_0009#","IsActive":true,"MoneyCurrency":"USD","MoneyValue":"80.00","SubscriptionPeriodCode":"HalfYear"}
+{"CategoryCode":"Renewal","CountryCode":"PL","Id":"#GUID_0010#","IsActive":true,"MoneyCurrency":"PLN","MoneyValue":"320.00","SubscriptionPeriodCode":"HalfYear"}

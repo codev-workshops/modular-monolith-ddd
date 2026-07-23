@@ -1,0 +1,1 @@
+{"$schema":"https://json-schema.org/draft/2020-12/schema","additionalProperties":false,"properties":{"expirationDate":{"format":"date-time","type":"string"},"period":{"type":["string","null"]},"status":{"type":["string","null"]},"subscriptionId":{"format":"uuid","type":"string"}},"required":["expirationDate","subscriptionId"],"title":"SubscriptionDetailsDto","type":"object"}
