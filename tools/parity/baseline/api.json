@@ -1,0 +1,62 @@
+[
+  {
+    "Key": "GET /api/administration/meetingGroupProposals",
+    "Module": "Administration",
+    "Hash": "09217419e74301f318821b394875e18e7eb4111f40cdb8db514ab61488cab510"
+  },
+  {
+    "Key": "GET /api/meetings/MeetingGroupProposals",
+    "Module": "Meetings",
+    "Hash": "92cb620f9462cb7f433100ae00842327efca9f749ef6e6668f38e11eed9da209"
+  },
+  {
+    "Key": "GET /api/meetings/MeetingGroupProposals/all",
+    "Module": "Meetings",
+    "Hash": "ce175bb2f3ceb66ba69ea68484b553511e648732d9714bf04b156594e27fdbb3"
+  },
+  {
+    "Key": "GET /api/meetings/MeetingGroups",
+    "Module": "Meetings",
+    "Hash": "0e920328a4393912645ba18db5f2ff7ee38f5eba4c41e8113e8630fd29bee82e"
+  },
+  {
+    "Key": "GET /api/meetings/MeetingGroups/all",
+    "Module": "Meetings",
+    "Hash": "6ddb944e5868aebfb7f31dc482086c1ade74d53eb070d9eddbf45f4b9f0269d1"
+  },
+  {
+    "Key": "GET /api/meetings/countries",
+    "Module": "Meetings",
+    "Hash": "cd8c3bab7be3ed1640e5ffd3b66af2a28a638f2bc2f7e29deedff86dd505c445"
+  },
+  {
+    "Key": "GET /api/meetings/meetings",
+    "Module": "Meetings",
+    "Hash": "2bc4b3bfc5af0c4e60bcf00e87bf90d51e45e1432680b2f663b77f766ad1c926"
+  },
+  {
+    "Key": "GET /api/payments/payers/authenticated/subscription",
+    "Module": "Payments",
+    "Hash": "377e96c936745f15f9a2082177fdc6246bceeb15709903c8c379d7481fd24217"
+  },
+  {
+    "Key": "GET /api/payments/priceListItems?CountryCode=PL\u0026CategoryCode=Standard\u0026PeriodTypeCode=Month",
+    "Module": "Payments",
+    "Hash": "0d3ef23c3cfd419afd7429513d4a7819c7d247fa472f4458e25f8a35aed70df4"
+  },
+  {
+    "Key": "GET /api/userAccess/authenticatedUser",
+    "Module": "UserAccess",
+    "Hash": "8236e872c8452d7251289853b5313bd014af5b9388e9232d3d3725f6c7bbe992"
+  },
+  {
+    "Key": "GET /api/userAccess/authenticatedUser/permissions",
+    "Module": "UserAccess",
+    "Hash": "9b8d2c910fb3ac5e7ad5063bf9579800b78a9e632070dc33404667c7931326f5"
+  },
+  {
+    "Key": "GET /api/userAccess/emails",
+    "Module": "UserAccess",
+    "Hash": "a36d34636b923b473e4bfbe2be742adebf09419c28c75389d37bad30b862ef2b"
+  }
+]

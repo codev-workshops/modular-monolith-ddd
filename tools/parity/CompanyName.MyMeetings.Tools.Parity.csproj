@@ -1,0 +1,36 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RootNamespace>CompanyName.MyMeetings.Tools.Parity</RootNamespace>
+    <AssemblyName>parity</AssemblyName>
+    <IsPackable>false</IsPackable>
+    <!-- This tool lives outside src/ so it deliberately does not inherit the
+         strict StyleCop / warnings-as-errors settings of the product code. -->
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.6" />
+  </ItemGroup>
+
+  <ItemGroup Label="Module contract assemblies (for DTO / integration-event hashing)">
+    <ProjectReference Include="..\..\src\Modules\Meetings\Application\CompanyName.MyMeetings.Modules.Meetings.Application.csproj" />
+    <ProjectReference Include="..\..\src\Modules\Meetings\IntegrationEvents\CompanyName.MyMeetings.Modules.Meetings.IntegrationEvents.csproj" />
+    <ProjectReference Include="..\..\src\Modules\Administration\Application\CompanyName.MyMeetings.Modules.Administration.Application.csproj" />
+    <ProjectReference Include="..\..\src\Modules\Administration\IntegrationEvents\CompanyName.MyMeetings.Modules.Administration.IntegrationEvents.csproj" />
+    <ProjectReference Include="..\..\src\Modules\Payments\Application\CompanyName.MyMeetings.Modules.Payments.Application.csproj" />
+    <ProjectReference Include="..\..\src\Modules\Payments\IntegrationEvents\CompanyName.MyMeetings.Modules.Payments.IntegrationEvents.csproj" />
+    <ProjectReference Include="..\..\src\Modules\Registrations\Application\CompanyName.MyMeetings.Modules.Registrations.Application.csproj" />
+    <ProjectReference Include="..\..\src\Modules\Registrations\IntegrationEvents\CompanyName.MyMeetings.Modules.Registrations.IntegrationEvents.csproj" />
+    <ProjectReference Include="..\..\src\Modules\UserAccess\Application\CompanyName.MyMeetings.Modules.UserAccess.Application.csproj" />
+    <ProjectReference Include="..\..\src\Modules\UserAccess\IntegrationEvents\CompanyName.MyMeetings.Modules.UserAccess.IntegrationEvents.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="config\endpoints.json" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,27 @@
+[
+  {
+    "Key": "Administration",
+    "Module": "Administration",
+    "Hash": "c05740f2995768c710581b677e0235e7550e6f02ecc6cdb3134e5bc378c27833"
+  },
+  {
+    "Key": "Meetings",
+    "Module": "Meetings",
+    "Hash": "676c9745cdb53962f9c365252b6d0802b770211e383fc420be8f09b103453310"
+  },
+  {
+    "Key": "Payments",
+    "Module": "Payments",
+    "Hash": "8869fcd4a2e2cd705a6000f84362a40da4f46628fdb59b38686ee1480d970384"
+  },
+  {
+    "Key": "Registrations",
+    "Module": "Registrations",
+    "Hash": "09558a901786dda7352df7cef3f98330b9da96c0f59165e7eba384dbabf13676"
+  },
+  {
+    "Key": "UserAccess",
+    "Module": "UserAccess",
+    "Hash": "16338cdebcf119d056e6c15ed75e106a6f9a169b3eb464647c2a64f34ca4ce74"
+  }
+]

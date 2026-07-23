@@ -1,0 +1,23 @@
+{
+  "redactFields": [
+    "traceId",
+    "correlationId",
+    "timestamp",
+    "occurredOn",
+    "exceptionDetails"
+  ],
+  "requests": [
+    { "module": "Meetings", "method": "GET", "path": "/api/meetings/countries" },
+    { "module": "Meetings", "method": "GET", "path": "/api/meetings/MeetingGroups" },
+    { "module": "Meetings", "method": "GET", "path": "/api/meetings/MeetingGroups/all" },
+    { "module": "Meetings", "method": "GET", "path": "/api/meetings/meetings" },
+    { "module": "Meetings", "method": "GET", "path": "/api/meetings/MeetingGroupProposals" },
+    { "module": "Meetings", "method": "GET", "path": "/api/meetings/MeetingGroupProposals/all" },
+    { "module": "Administration", "method": "GET", "path": "/api/administration/meetingGroupProposals" },
+    { "module": "Payments", "method": "GET", "path": "/api/payments/priceListItems?CountryCode=PL&CategoryCode=Standard&PeriodTypeCode=Month" },
+    { "module": "Payments", "method": "GET", "path": "/api/payments/payers/authenticated/subscription" },
+    { "module": "UserAccess", "method": "GET", "path": "/api/userAccess/authenticatedUser" },
+    { "module": "UserAccess", "method": "GET", "path": "/api/userAccess/authenticatedUser/permissions" },
+    { "module": "UserAccess", "method": "GET", "path": "/api/userAccess/emails" }
+  ]
+}

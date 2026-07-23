@@ -1,0 +1,6 @@
+# Build output
+bin/
+obj/
+
+# Local debug material produced by --details
+parity-details/
