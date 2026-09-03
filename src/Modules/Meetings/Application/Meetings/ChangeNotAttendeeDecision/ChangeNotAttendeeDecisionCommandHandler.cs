@@ -1,0 +1,25 @@
+﻿using CompanyName.MyMeetings.Modules.Meetings.Application.Configuration.Commands;
+using CompanyName.MyMeetings.Modules.Meetings.Domain.Meetings;
+using CompanyName.MyMeetings.Modules.Meetings.Domain.Members;
+
+namespace CompanyName.MyMeetings.Modules.Meetings.Application.Meetings.ChangeNotAttendeeDecision
+{
+    internal class ChangeNotAttendeeDecisionCommandHandler : ICommandHandler<ChangeNotAttendeeDecisionCommand>
+    {
+        private readonly IMemberContext _memberContext;
+        private readonly IMeetingRepository _meetingRepository;
+
+        public ChangeNotAttendeeDecisionCommandHandler(IMemberContext memberContext, IMeetingRepository meetingRepository)
+        {
+            _memberContext = memberContext;
+            _meetingRepository = meetingRepository;
+        }
+
+        public async Task Handle(ChangeNotAttendeeDecisionCommand request, CancellationToken cancellationToken)
+        {
+            var meeting = await _meetingRepository.GetByIdAsync(new MeetingId(request.MeetingId));
+
+            meeting.ChangeNotAttendeeDecision(_memberContext.MemberId);
+        }
+    }
+}

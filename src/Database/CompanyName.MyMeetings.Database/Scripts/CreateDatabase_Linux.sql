@@ -1,0 +1,9 @@
+﻿CREATE DATABASE [MyMeetings] 
+CONTAINMENT = NONE 
+GO
+
+USE [MyMeetings]
+GO
+
+CREATE SCHEMA app AUTHORIZATION dbo
+GO

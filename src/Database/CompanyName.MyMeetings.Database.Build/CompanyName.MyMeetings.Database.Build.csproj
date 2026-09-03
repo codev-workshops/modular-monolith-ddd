@@ -1,0 +1,9 @@
+<Project Sdk="MSBuild.Sdk.SqlProj/2.6.1">
+  <PropertyGroup>
+    <SqlServerVersion>Sql130</SqlServerVersion>
+    <ProduceReferenceAssembly>false</ProduceReferenceAssembly>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="..\CompanyName.MyMeetings.Database\Structure\**\*.sql" />
+  </ItemGroup>
+</Project>
